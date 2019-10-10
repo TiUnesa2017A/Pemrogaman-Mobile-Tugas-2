@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/menuStandart"
+            android:title="Calculator Standart"
+            app:showAsAction="never" />
+
+    <item
+            android:id="@+id/menuScience"
+            android:title="Calculator Science"
+            app:showAsAction="never" />
+
+    <item
+            android:id="@+id/menuProgrammer"
+            android:title="Calculator Programmer"
+            app:showAsAction="never" />
+</menu>

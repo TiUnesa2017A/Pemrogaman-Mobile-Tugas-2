@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#32a89e</color>
+    <color name="colorPrimaryDark">#3279a8</color>
+    <color name="colorAccent">#a89432</color>
+    <color name="tombolAksi">#fc4d44</color>
+    <color name="tombolAngka">#a032a8</color>
+</resources>

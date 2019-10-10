@@ -1,0 +1,2 @@
+include ':TugasKalkulator2'
+rootProject.name='Kalkulator'

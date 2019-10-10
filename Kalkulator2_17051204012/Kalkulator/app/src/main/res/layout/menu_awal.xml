@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".menu_awal">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/btn_standar"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/logo"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_standar" />
+
+
+
+    <ImageButton
+        android:id="@+id/btn_science"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btn_standar"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_science" />
+
+    <ImageButton
+        android:id="@+id/btn_biner"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btn_science"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_biner" />
+
+
+</RelativeLayout>
